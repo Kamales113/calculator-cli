@@ -9,7 +9,7 @@ def div(a,b):
         return "Error! Division by zero."
     return a / b
 
-def calculate(num1,num2):
+def calculate():
      operation = input("The operation are +,-,*,/: ")
      print("Welcom to the calculator")
      print("the operation are +,-,*,/")
@@ -30,4 +30,5 @@ def calculate(num1,num2):
         else:
             print("Invalid number")
 
-calculate()
+if __name__ == "__main__":
+    calculate()
