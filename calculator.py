@@ -11,9 +11,9 @@ def div(a,b):
 
 def calculate():
      operation = input("The operation are +,-,*,/: ")
-     print("Welcom to the calculator")
+     print("Welcome to the calculator")
      print("the operation are +,-,*,/")
-     print("If you wan to exit type exit")
+     print("If you want to exit type exit")
      while True:
         if operation =="exit":
             break
